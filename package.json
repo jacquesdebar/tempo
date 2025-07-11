@@ -1,0 +1,8 @@
+{
+  "name": "tempo",
+  "version": "1.0.0",
+  "description": "A board game timer web application",
+  "devDependencies": {
+    "@playwright/mcp": "^0.0.29"
+  }
+}
