@@ -120,7 +120,7 @@ h3 {
 
 .radio-group label {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     padding: 1rem;
     background: var(--background);
     border-radius: 8px;
@@ -134,19 +134,18 @@ h3 {
 
 .radio-group input[type="radio"] {
     margin-right: 0.75rem;
-    margin-top: 0.25rem;
 }
 
 .radio-group span {
-    display: block;
+    display: inline-block;
     font-weight: 500;
+    margin-right: 0.5rem;
 }
 
 .radio-group small {
-    display: block;
+    display: inline;
     color: var(--text-secondary);
     font-size: 0.875rem;
-    margin-top: 0.25rem;
 }
 
 /* Buttons */
